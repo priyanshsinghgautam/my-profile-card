@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html, body{
+            margin: 0%;
+            padding: 0%;
+            height: 100%;
+            background: linear-gradient(to bottom right, #ffffff, #f3f4f6);
+            scroll-behavior: smooth;
+        }
+        .container{
+            height: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+        }
+        .top-bar {
+            width: 100%;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 10px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #logo{
+            height: 20px;
+        }
+        #logo:hover{
+            transform: scale(1.20);
+            transition: 0.3s ease-in-out;
+        }
+        h1{
+            font-family: sans-serif;
+            color: grey;
+            font-size: 20px;
+            display: flex;
+            justify-content: center;
+            text-decoration: underline;
+        }
+        .boxes{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 20px;
+        }
+        .box{
+            background-color: rgb(247, 253, 255);
+            border-radius: 20%;
+            height: 320px;
+            width: 250px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            box-shadow: 0 8px 15px #8f8f8f;
+            transition: all 0.3s ease-in-out;
+        }
+        #box:hover{
+            transform: scale(1.10);
+            background-color: rgb(255, 228, 179);
+        }
+        #calc{
+            height: 175px;
+            width: 250px;
+            border-radius: 20%;
+        }
+        a{
+            text-decoration: none;
+            color: grey;
+            display: flex;
+            justify-content: center;
+        }
+        button{
+            height: 20px;
+            width: 100px;
+            background-color: rgb(151, 215, 255);
+            border-color: #8f8f8f;
+            border-radius: 10px;
+            transition: 0.05s ease;
+        }
+        button:hover{
+            transform: scale(1.10);
+        }
+        .bottombar{
+            background-color: #8f8f8f;
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+        #bottomul{
+            display: flex;
+            flex-direction: row;
+            gap: 250px;
+            font-family: sans-serif;
+            font-size: 30px;
+            list-style-type: none;
+            padding: 10px;
+        }
+        img{
+            height: 40px;
+        }
+        #sociallogo{
+            display: flex;
+            gap: 10px;
+            list-style-type: none;
+        }
+        #listcontent{
+            font-size: 20px;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <img src="images/logo.png" alt="" id="logo">
+    </div><br><br><br><br><br>
+    <h1>web devlopment mini projects with Source Code</h1>
+    <div class="container">
+        <div class="boxes">
+            <a href="https://priyanshsinghgautam.github.io/basic-calculator/">
+                <div class="box" id="box">
+                    <img src="images/calc.png" alt="" id="calc"><br>
+                    <a href="https://priyanshsinghgautam.github.io/basic-calculator/">basic calculator</a>
+                    <p>This mini project is used for basic calculations.</p>
+                    <a href="https://github.com/priyanshsinghgautam/basic-calculator"><button>Source code</button></a>
+                </div>
+            </a>
+            <a href="https://priyanshsinghgautam.github.io/character-counter/">
+                <div class="box" id="box">
+                    <img src="images/charcount.png" alt="" id="calc"><br>
+                    <a href="https://priyanshsinghgautam.github.io/character-counter/">character counter</a>
+                    <p>This mini project is used for counting the number of characters in a paragraph.</p>
+                    <a href="https://github.com/priyanshsinghgautam/character-counter/tree/main"><button>Source code</button></a>
+                </div>
+            </a>
+            <a href="https://priyanshsinghgautam.github.io/digital-clock/">
+                <div class="box" id="box">
+                    <img src="images/clock.png" alt="" id="calc"><br>
+                    <a href="https://priyanshsinghgautam.github.io/digital-clock/">digital clock</a>
+                    <p>This mini project is a digital clock which shows present day and date as well.</p>
+                    <a href="https://github.com/priyanshsinghgautam/digital-clock/tree/main"><button>Source code</button></a>
+                </div>
+            </a>
+            <a href="https://priyanshsinghgautam.github.io/QR-code-generator/">
+                <div class="box" id="box">
+                    <img src="images/qrgenerator.png" alt="" id="calc"><br>
+                    <a href="https://priyanshsinghgautam.github.io/QR-code-generator/">qr code generator</a>
+                    <p>This mini project is used for generating a qr code for any type of link, image, text, etc.</p>
+                    <a href="https://github.com/priyanshsinghgautam/QR-code-generator"><button>Source code</button></a>
+                </div>
+            </a>
+        </div>
+        <div class="boxes">
+            <a href="https://priyanshsinghgautam.github.io/rock-paper-scissors-game/">
+                <div class="box" id="box">
+                    <img src="images/rps.png" alt="" id="calc"><br>
+                    <a href="https://priyanshsinghgautam.github.io/rock-paper-scissors-game/">rock paper scissors game</a>
+                    <p>This mini project is a rock paper scissors game.</p>
+                    <a href="https://github.com/priyanshsinghgautam/rock-paper-scissors-game/"><button>Source code</button></a>
+                </div>
+            </a>
+            <a href="https://priyanshsinghgautam.github.io/Instagram-Profile-Viewer/">
+                <div class="box" id="box">
+                    <img src="images/insta.png" alt="" id="calc"><br>
+                    <a href="https://priyanshsinghgautam.github.io/Instagram-Profile-Viewer/">Instagram Profile Viewer</a>
+                    <p>This mini project is used for searching instagram profile with username.</p>
+                    <a href="https://github.com/priyanshsinghgautam/Instagram-Profile-Viewer"><button>Source code</button></a>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="bottombar">
+        <ul id="bottomul">
+            <li>About
+                <ul id="listcontent">
+                    <li>
+                        Featuring a collection of my work with source code and live demos. <br> 
+                        Explore my creations and see what I've built!
+                    </li>
+                </ul>
+            </li>
+            <li id="sociallogo"><img src="images/github.png" alt=""><img src="images/linkedin.png" alt=""><img src="images/twitter.png" alt=""></li>
+            <li>Contact info
+                <ul id="listcontent">
+                    <li>Email: priyanshgautam45@gmail.com</li>
+                    <li>Phone: +91 8462946237</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
